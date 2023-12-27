@@ -1,0 +1,51 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container h2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 10;
+}
+
+.container h2 span {
+  display: block;
+}
+
+.container h2 span:nth-child(1) {
+  background: black;
+  color: white;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.container h2 span:nth-child(2) {
+  color: white;
+  font-size: 3rem;
+}
+
+.visual {
+  max-height: 70vh;
+  overflow: hidden;
+}
+
+.userName{
+  margin-top: 2rem;
+}
+
+.logout{
+  padding: 0.3rem 1rem;
+  border: 1px solid black;
+  transition: all .2s;
+}
+
+.logout:hover{
+  background:black;
+  color: white
+}
